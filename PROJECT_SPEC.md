@@ -1,6 +1,6 @@
 # Project Specification: CA Exam Prep App, Version 1
 
-Draft 2 by Claude, October 11, 2026, revised after review by Chad (technical) and Plexy (fact-check and annotated review). For approval by Jami. Based on PROJECT_NOTES.md (October 11, 2026), PLEXY_DECISION_FEEDBACK.md, ORIGINAL_APP.md, ORIGINAL_APP_STORY.md, and RESEARCH.md.
+Draft 2 by Claude, October 11, 2026, revised after review by Chad (technical) and Plexy (fact-check and annotated review), with two clarifications from Plexy's final check. Approved by Jami, October 11, 2026. Based on PROJECT_NOTES.md (October 11, 2026), PLEXY_DECISION_FEEDBACK.md, ORIGINAL_APP.md, ORIGINAL_APP_STORY.md, and RESEARCH.md.
 
 ## Decision status
 
@@ -278,11 +278,13 @@ In `localStorage`, under one key for real content (for example, `caExamPrep.v1`)
 
 - **Learning Mode:** when each question is answered.
 - **Practice Exam:** at submission, using each question's final answer, counted once.
-- **Unanswered exam questions (P7)** count as incorrect in the exam score but don't change saved study history, since they weren't answered. They stay unasked.
+- **Unanswered exam questions (P7)** count as incorrect in the exam score but don't change saved study history, since they weren't answered. Their existing study history is unchanged: a question never answered stays unasked, and one answered in an earlier session keeps its previous record.
 
 ### 7.4 Revisions
 
 If a question's current `revision` is higher than the saved one, its old progress is ignored. It shows as unasked again, so outdated answers never count as current mastery. (Active exam attempts are protected separately; see Section 6.4.)
+
+An exam attempt started before a question was revised is still scored and reviewed from its own saved copy. When it's submitted, it updates study history only for questions whose saved revision matches the current one. It never overwrites history already recorded for a newer revision.
 
 ### 7.5 Reset
 
