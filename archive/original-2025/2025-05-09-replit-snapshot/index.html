@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Certified Archivist Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Certified Archivist Exam Prep</h1>
+    <div id="progress-bar"><div id="progress-fill"></div></div>
+
+    <section id="home">
+      <h2>Welcome</h2>
+      <p>Select a mode to begin:</p>
+      <button onclick="startQuiz('learning')">Learning Mode</button>
+      <button onclick="startQuiz('test')">Test Mode</button>
+      <button onclick="startQuiz('exam')">Practice Exam</button>
+      <button onclick="startQuiz('flashcard')">Flash Card Mode</button>
+
+      <h3>Study Resources</h3>
+      <ul>
+        <li><a href="#">ACA Study Guide (PDF)</a></li>
+        <li><a href="#">Reading List</a></li>
+        <li><a href="#">Domain Outlines</a></li>
+      </ul>
+
+      <h3>Performance Stats</h3>
+      <div id="stats">
+        <p>Overall Accuracy: <span id="overall-accuracy">0%</span></p>
+        <ul id="domain-stats"></ul>
+      </div>
+    </section>
+
+    <section id="quiz" style="display: none;">
+      <div id="progress">Progress: <span id="progress-count">0</span></div>
+      <div id="flag-container">
+        <label>
+          <input type="checkbox" id="flag-checkbox" />
+          <strong>Flag this question for review</strong>
+        </label>
+      </div>
+
+      <div id="question-box">
+        <p id="question-text"></p>
+        <div id="choices"></div>
+      </div>
+      <div id="nav-buttons">
+        <button onclick="previousQuestion()">Previous</button>
+        <button onclick="nextQuestion()">Next</button>
+      </div>
+
+      <div id="feedback"></div>
+    </section>
+
+  
+    <section id="results" style="display: none;">
+      <h2>Quiz Results</h2>
+      <p>Your Score: <span id="score"></span></p>
+      <div id="review"></div>
+      <button onclick="goHome()">Back to Home</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
