@@ -55,9 +55,9 @@ Work top to bottom; finish each phase before starting the next.
 ### Phase 0: Set up the repository
 
 - [x] **Jami:** Create the GitHub repository with a README
-- [ ] **Jami:** Decide whether the repo stays public or private for now (public lets Claude read it directly)
-- [ ] **Jami:** Create PROJECT\_NOTES.md and paste in the Working agreements above
-- [ ] **Jami:** Send the repo link to Claude and Chad
+- [x] **Jami:** Decide whether the repo stays public or private for now (public lets Claude read it directly)
+- [x] **Jami:** Create PROJECT\_NOTES.md and paste in the Working agreements above
+- [x] **Jami:** Send the repo link to Claude and Chad
 
 ### Phase 1: Reconstruct the original app
 
