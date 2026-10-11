@@ -47,6 +47,7 @@ Jami, Claude, and Chad agreed on these rules on October 11, 2026; Plexy joined t
 | CHANGELOG.md | What changed in each version | First working version |
 | PROJECT_PLAN.md | Roles, workflow, and reference checklist (progress is tracked in Issue #1) | Phase 0 |
 | ORIGINAL_APP.md | Inventory of the original app: features with evidence, question-bank counts and issues, missing assets, and decisions to make | Phase 1 |
+| ORIGINAL_APP_STORY.md | Jami's firsthand account of the original app: history, features, what worked, and what to do differently | Phase 1 |
 
 
 ## Checklist
