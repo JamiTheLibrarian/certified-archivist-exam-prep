@@ -53,6 +53,7 @@ Jami, Claude, and Chad agreed on these rules on October 11, 2026; Plexy joined t
 | ORIGINAL_APP.md | Inventory of the original app: features with evidence, question-bank counts and issues, missing assets, and decisions to make | Phase 1 |
 | ORIGINAL_APP_STORY.md | Jami's firsthand account of the original app: history, features, what worked, and what to do differently | Phase 1 |
 | PROJECT_SPEC.md | What the app does and how it's built, including the question-bank format | Phase 2 |
+| ARCHITECTURE.md | Module contracts: what each part of the code does, the data it passes, and how errors are handled | Phase 4 (before step 1) |
 
 
 ## Checklist
@@ -88,9 +89,9 @@ Work top to bottom; finish each phase before starting the next.
 
 ### Phase 3: Plan the build
 
-- [ ] **Claude and Chad:** Propose which features each assistant builds, and in what order
-- [ ] **Jami:** Approve the split and record it in PROJECT\_NOTES.md
-- [ ] **Jami:** Create one GitHub Issue per feature, noting who builds it
+- [x] **Claude and Chad:** Propose which features each assistant builds, and in what order
+- [x] **Jami:** Approve the split and record it in PROJECT\_NOTES.md
+- [x] **Jami:** Create one GitHub Issue per feature, noting who builds it
 
 ### Phase 4: Build, one feature at a time
 
