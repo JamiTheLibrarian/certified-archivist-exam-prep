@@ -121,7 +121,7 @@ Each feature is labeled with the strongest evidence available:
 | Responsive layout for phones | In original code | SNAP | Buttons widen on small screens |
 | Questions written into the code | In original code | SNAP | The May 9 build has two sample questions and loads no question file |
 | Loading questions from JSON files | In original code (ChatGPT versions only) | CODE-A, CODE-B | Not in Jami's May 9 build; the question files are lost |
-| Importing questions from Word documents | Partial evidence | CHAT1, D1S | Replit's assistant wrote a Python import script for the first build; 15 Domain 1 questions are marked imported |
+| Importing questions from Word documents | Partial evidence | CHAT1, D1S | Replit's assistant wrote a Python import script for the first build. Separately, 15 Domain 1 questions are marked imported, but into which app is unclear |
 | Unique ID for each question | Partial evidence | D1S, IDN | IDs exist in the spreadsheet (D1.MCQ.001) but in no code |
 | Export for offline storage | Requested | IDN | |
 
@@ -215,7 +215,7 @@ Beyond factual accuracy, the review should check each question for answer-positi
 ### Unresolved discrepancies
 
 1. TQD records 15 true/false and 7 drag-and-drop questions for Domain 2, but no Domain 2 documents for those types were found. (Jami dropped these question types on May 6, 2025.)
-2. The 15 imported questions were in the first Replit build, which Jami deleted on May 7. The May 9 build used two sample questions; whether questions were loaded later can't be determined.
+2. 15 Domain 1 questions are marked as imported, but it's unclear whether that refers to the app inside ChatGPT (where questions were imported in early May and later lost) or the first Replit build. The "Imported to App?" column was already in the spreadsheet on May 6, about an hour after Replit was set up. The May 9 build used two sample questions; whether questions were loaded later can't be determined.
 3. It's unclear whether the per-source sections in the domain documents were all intended for the app or were also study notes.
 4. According to the conversation, two PDFs uploaded on May 1, 2025 listed Domain 2 as 60 multiple-choice, 15 true/false, and 7 drag-and-drop questions. They are probably the source of TQD's Domain 2 figures. The PDFs have not been located.
 
