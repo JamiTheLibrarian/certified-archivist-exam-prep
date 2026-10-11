@@ -330,21 +330,28 @@ This app doesn't reproduce ACA's own testing accommodations, which candidates re
 
 ### 10.1 Structure
 
+The file layout, module contracts, and the builder for each file are defined in ARCHITECTURE.md, which takes precedence for those details. In summary:
+
 ```
 app/
   index.html
   css/style.css
   js/
     main.js         Starts the app and switches screens
+    data.js         Loads the data files and runs the checks
     ui.js           Shared display helpers
     learning.js     Learning Mode screens
-    exam.js         Practice Exam screens and timer
     results.js      Results and review list
+    exam.js         Practice Exam screens and timer
+    home.js         Home page
     logic/          No display code, so these can be tested automatically
       validate.js   Checks questions, sources, and settings
-      blueprint.js  Draws exam questions and checks readiness
-      scoring.js    Scores attempts and sessions
-      progress.js   Saved progress, filters, and reset
+      random.js     Fair shuffling and drawing
+      filters.js    Learning Mode filters
+      scoring.js    Scores sessions and attempts
+      progress.js   Saved progress, attempts, and reset
+      blueprint.js  Exam readiness and drawing
+      attempt.js    Exam attempt lifecycle
   data/
     questions.json
     sources.json
@@ -352,6 +359,7 @@ app/
     fixtures/       Fictional test data (Section 4.5)
 tests/              Automated tests (Section 12.2)
 .github/workflows/  Publishing and testing workflows
+package.json        Lets the automated tests read the app's modules
 ```
 
 ### 10.2 Checking data on load (P9)
