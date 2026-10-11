@@ -14,4 +14,4 @@ Roles, workflow, and the full checklist are in [PROJECT_PLAN.md](PROJECT_PLAN.md
 ## Open questions
 
 - See "Open decisions" in PROJECT_PLAN.md.
-- - For publishing (Phase 5): publish only the rebuild's folder, so the old pages in archive/ don't go live. (Plexy)
+ - For publishing (Phase 5): publish only the rebuild's folder, so the old pages in archive/ don't go live. (Plexy)
