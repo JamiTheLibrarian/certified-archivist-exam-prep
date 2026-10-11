@@ -1,6 +1,6 @@
 # CA Exam Prep App: Project Plan
 
-Oct 11, 2026 · @JamiMurphy&#32;
+Oct 11, 2026 · Jami Murphy
 
 ## Overview
 
