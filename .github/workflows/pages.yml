@@ -1,0 +1,47 @@
+# Publishes only the app/ folder to GitHub Pages, after the tests pass.
+# In approved-content mode, the fictional fixtures are left out of the website.
+# Owner: Claude (step 1). See ARCHITECTURE.md, Section 5, and PROJECT_SPEC.md, Section 3.
+name: Publish site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run tests (nothing is published if any test fails)
+        run: npm test
+      - name: Prepare the site from app/ only
+        run: |
+          mkdir _site
+          cp -R app/. _site/
+          mode=$(node -p "JSON.parse(require('fs').readFileSync('app/data/settings.json', 'utf8')).content_mode")
+          if [ "$mode" = "approved" ]; then
+            rm -rf _site/data/fixtures
+            echo "Approved mode: fixtures left out of the website."
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
