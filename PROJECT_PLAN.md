@@ -46,6 +46,7 @@ Jami, Claude, and Chad agreed on these rules on October 11, 2026; Plexy joined t
 | Question bank data file (e.g. questions.json) | All exam questions, kept separate from the code | First question feature |
 | CHANGELOG.md | What changed in each version | First working version |
 | PROJECT_PLAN.md | Roles, workflow, and reference checklist (progress is tracked in Issue #1) | Phase 0 |
+| ORIGINAL_APP.md | Inventory of the original app: features with evidence, question-bank counts and issues, missing assets, and decisions to make | Phase 1 |
 
 
 ## Checklist
@@ -61,11 +62,11 @@ Work top to bottom; finish each phase before starting the next.
 
 ### Phase 1: Reconstruct the original app
 
-- [ ] **Jami:** Gather anything that survives: screenshots, old code, files, links
+- [x] **Jami:** Gather anything that survives: screenshots, old code, files, links
 - [ ] **Jami:** Write a rough description: features, look, where it lived, what you liked, what frustrated you
-- [ ] **Plexy:** Research the current Role Delineation Statement (domains, tasks, knowledge statements), Reading List, eligibility, and exam format, noting the version of each document
-- [ ] **Jami:** Commit Plexy's research as RESEARCH.md
-- [ ] **Jami:** Share the description, assets, and RESEARCH.md with Claude and Chad
+- [x] **Plexy:** Research the current Role Delineation Statement (domains, tasks, knowledge statements), Reading List, eligibility, and exam format, noting the version of each document
+- [x] **Jami:** Commit Plexy's research as RESEARCH.md
+- [x] **Jami:** Share the description, assets, and RESEARCH.md with Claude and Chad
 - [ ] **Claude and Chad:** Ask follow-up questions to fill gaps
 - [ ] **Jami:** Sort features into "recreate as is" and "improve"
 
