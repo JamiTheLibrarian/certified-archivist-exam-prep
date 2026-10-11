@@ -1,12 +1,12 @@
 # Original App Inventory
 
-Prepared by Claude, October 11, 2026, from the original materials in Jami's Google Drive, with findings from Plexy and Chad, and revised after their review. Status: **reviewed; pending the Replit check**. The original source code has not been located; this document will be updated after Jami checks Replit.
+Prepared by Claude, October 11, 2026, from the original materials in Jami's Google Drive, with findings from Plexy and Chad, and revised after their review. Status: **final for Phase 1**. Jami confirmed on October 11, 2026 that nothing from the original Replit build survived, so the source code is lost and this inventory is the full surviving record.
 
 No original question text appears in this document. The question bank stays in Google Drive until questions are reviewed and approved.
 
 ## How to read this inventory
 
-No code survives, so no feature can be confirmed as fully implemented. The one exception is the prototype screenshot itself, which shows a running app. Each feature is labeled with the strongest evidence available:
+The original code was lost with the Replit build, so no feature can be confirmed as fully implemented. The one exception is the prototype screenshot itself, which shows a running app. Each feature is labeled with the strongest evidence available:
 
 | Status | Meaning |
 | --- | --- |
@@ -92,8 +92,8 @@ No code survives, so no feature can be confirmed as fully implemented. The one e
 | Item | Status | Evidence | Notes |
 | --- | --- | --- | --- |
 | Web app | Partial evidence | PROTO | The screenshot looks like a browser-based app |
-| HTML, CSS, JavaScript, JSON | No evidence | | Recalled in discussion; no code or data files survive |
-| Built in Replit | No evidence | | Recalled in discussion; a lead to investigate, not an established fact. Jami is checking |
+| HTML, CSS, JavaScript, JSON | No evidence | | Recalled in discussion; no code or data files survive to confirm it |
+| Built in Replit | Confirmed by Jami | | The original was built in Replit; nothing from that build survived |
 
 ## Question bank inventory
 
@@ -163,18 +163,18 @@ Beyond factual accuracy, the review should check each question for answer-positi
 ### Unresolved discrepancies
 
 1. TQD records 15 true/false and 7 drag-and-drop questions for Domain 2, but no Domain 2 documents for those types were found.
-2. The 15 imported questions are the only ones known to have been in the app. Whether more were added later is unknown without the code.
+2. The 15 imported questions are the only ones known to have been in the app. Whether more were added later can't be determined, since the code is lost.
 3. It's unclear whether the per-source sections in the domain documents were all intended for the app or were also study notes.
 
 ## Missing assets
 
 | Asset | Status | Next step |
 | --- | --- | --- |
-| Original source code | Not located; the Domain 1 folder inside "Quiz Code" is empty | Jami checks Replit |
-| App question data files (JSON or CSV used by the app) | Not located | Check Replit |
+| Original source code | Lost. Nothing from the Replit build survived, and the Domain 1 folder inside "Quiz Code" is empty | None; the rebuild starts fresh |
+| App question data files (JSON or CSV used by the app) | Lost with the Replit build | Rebuild from the Drive documents |
 | Flashcards | Folder is empty | Confirm whether any were made |
 | Domain 2 true/false and drag-and-drop questions | Counted in TQD but not found | Search Drive or confirm they were never written |
-| Other screens (start, test mode, results) | Only the Learning Mode screen survives | Check Replit; otherwise design new |
+| Other screens (start, test mode, results) | Only the Learning Mode screen survives | Design new, guided by the Interface Design Notes |
 
 ## Decisions needed: recreate, improve, or defer
 
