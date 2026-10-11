@@ -36,6 +36,10 @@ Jami, Claude, and Chad agreed on these rules on October 11, 2026; Plexy joined t
 9. Every exam fact records its source link, the source's publication or update date, and the date it was checked.
 10. An Issue is closed only when the feature is built, reviewed, tested, and, if it includes exam content, fact-checked.
 11. Keep what worked in the original rather than redesigning for its own sake.
+12. Module contracts are documented in ARCHITECTURE.md before step 1's code is written, and updated whenever a contract changes.
+13. Each finished feature includes a handoff note: files changed, functions available to other modules, dependencies, and the tests that pass.
+14. Every feature is tracked through four stages: code written, code reviewed, tests passed, and accepted by Jami. Only accepted features are described as working.
+15. Accessibility is built into every feature by its builder; the step 9 audit is a final check, not the first one.
 
 | File | Purpose | Created when |
 | --- | --- | --- |
