@@ -1,6 +1,6 @@
 # Architecture and Module Contracts
 
-Draft 2 by Claude, October 11, 2026, revised after Chad's review. For approval by Jami before step 1's code is written (working agreement 12). It turns PROJECT_SPEC.md into concrete contracts: which module does what, who builds it, the functions each one offers, the data they pass, and how errors are handled. When a contract changes, this file changes in the same commit.
+Draft 2 by Claude, October 11, 2026, revised after Chad's review, and approved by Jami. Updated in step 1 with the details below marked *(step 1)*. It turns PROJECT_SPEC.md into concrete contracts: which module does what, who builds it, the functions each one offers, the data they pass, and how errors are handled. When a contract changes, this file changes in the same commit.
 
 ## 1. Ground rules
 
@@ -30,9 +30,26 @@ What `data.js` produces after loading and checking everything.
   sources: Map<source_id, Source>,
   settings: Settings,
   excluded: [{ id, reason }],       // questions left out, with readable reasons
+  sourceErrors: [{ id, reason }],   // sources left out, with readable reasons (step 1)
   settingsErrors: [string]          // e.g. "allocation totals 98, not 100"
 }
 ```
+
+### Settings fields added in step 1
+
+Besides the Practice Exam blueprint (PROJECT_SPEC.md 6.1), `settings.json` holds:
+
+```js
+{
+  content_mode: "fixtures" | "approved",
+  fixture_set: "small" | "full",          // which fictional set to load in fixtures mode
+  release_status: "development" | "released", // anything but "released" shows the In development banner
+  practice_exam: { ... },
+  score_goals: { green: 85, yellow: 75 }
+}
+```
+
+Fixture files are `app/data/fixtures/sources.json`, `questions-small.json` (17 questions: two per exam domain and one General Knowledge), and `questions-full.json` (106 questions: 13 per exam domain and two General Knowledge, enough to fill any allocation of up to 13 per domain).
 
 ### Progress record
 
@@ -281,7 +298,7 @@ Until step 5 exists, step 1 provides a stand-in progress store with `available: 
 
 ### Screen lifecycle
 
-Every screen module exports one function:
+Each screen is registered by name in the `screens` list at the top of `main.js`; each step adds its own line there. *(step 1)* Every screen module exports one function:
 
 ```js
 export function render(container, app, params, signal) { ... }
@@ -308,9 +325,9 @@ This prevents duplicate countdowns and stale screens when moving between screens
 
 ## 5. Tests and publishing
 
-- **Tests** live in `tests/`, one file per logic module (for example, `tests/scoring.test.js`), using Node's built-in test runner. A root `package.json` containing `{ "type": "module" }` lets Node read the app's modules directly. Each builder writes the tests for their own modules.
+- **Tests** live in `tests/`, one file per logic module (for example, `tests/scoring.test.js`), using Node's built-in test runner. A root `package.json` containing `{ "type": "module" }` lets Node read the app's modules directly, and `npm test` runs every `tests/*.test.js` file. `tests/data-files.test.js` checks the real data files, so a bad edit to a question file fails on its commit. Each builder writes the tests for their own modules.
 - **`.github/workflows/test.yml`** runs `node --test` on every push, showing a green check or red X on each commit.
-- **`.github/workflows/pages.yml`** publishes only `app/`. When `settings.json` has `"content_mode": "approved"`, it removes `app/data/fixtures/` before publishing.
+- **`.github/workflows/pages.yml`** runs the tests again, and publishes nothing if any fail. It then publishes only `app/`. When `settings.json` has `"content_mode": "approved"`, it removes `app/data/fixtures/` before publishing.
 
 ## 6. Handoff note template
 

@@ -1,0 +1,570 @@
+{
+  "bank": {
+    "version": "test-small-1",
+    "generated": "2026-10-11",
+    "content_type": "fixture"
+  },
+  "questions": [
+    {
+      "id": "TEST-D1-001",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D1",
+      "rds_refs": [],
+      "question": "Fictional test question D1-001: In the invented rules of the Imaginary Archives Handbook, which color is assigned to cloud-shaped boxes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moss"
+        },
+        {
+          "id": "b",
+          "text": "Coral"
+        },
+        {
+          "id": "c",
+          "text": "Slate"
+        },
+        {
+          "id": "d",
+          "text": "Amber"
+        }
+      ],
+      "correct_choice": "a",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Moss to cloud-shaped boxes.",
+      "source": {
+        "source_id": "test-manual",
+        "locator": "Test page 1",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D1-002",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D1",
+      "rds_refs": [],
+      "question": "Fictional test question D1-002: This one checks that punctuation displays safely. Which label does the pretend archivist's \"test\" shelf use?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The archivist's box & <label>"
+        },
+        {
+          "id": "b",
+          "text": "A \"quoted\" label"
+        },
+        {
+          "id": "c",
+          "text": "An unusually long answer choice that wraps onto more than one line on a phone screen, to check that long text stays readable and the button grows to fit it"
+        },
+        {
+          "id": "d",
+          "text": "Café ñ ü — accented characters"
+        }
+      ],
+      "correct_choice": "b",
+      "explanation": "This is fictional test content, not exam material. It checks that apostrophes, quotation marks, ampersands, angle brackets, and accented characters all display as plain text.",
+      "source": {
+        "source_id": "test-handbook",
+        "locator": "Test page 2",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D2-001",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D2",
+      "rds_refs": [],
+      "question": "Fictional test question D2-001: In the invented rules of the Imaginary Archives Handbook, which color is assigned to velvet catalogs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cobalt"
+        },
+        {
+          "id": "b",
+          "text": "Saffron"
+        },
+        {
+          "id": "c",
+          "text": "Pewter"
+        },
+        {
+          "id": "d",
+          "text": "Lilac"
+        }
+      ],
+      "correct_choice": "c",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Pewter to velvet catalogs.",
+      "source": {
+        "source_id": "test-handbook",
+        "locator": "Test page 1",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D2-002",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D2",
+      "rds_refs": [],
+      "question": "Fictional test question D2-002: In the invented rules of the Imaginary Archives Handbook, which color is assigned to hexagonal shelves?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moss"
+        },
+        {
+          "id": "b",
+          "text": "Coral"
+        },
+        {
+          "id": "c",
+          "text": "Slate"
+        },
+        {
+          "id": "d",
+          "text": "Amber"
+        }
+      ],
+      "correct_choice": "d",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Amber to hexagonal shelves.",
+      "source": {
+        "source_id": "test-guide",
+        "locator": "Test page 2",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D3-001",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D3",
+      "rds_refs": [],
+      "question": "Fictional test question D3-001: In the invented rules of the Imaginary Archives Handbook, which color is assigned to hexagonal shelves?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moss"
+        },
+        {
+          "id": "b",
+          "text": "Coral"
+        },
+        {
+          "id": "c",
+          "text": "Slate"
+        },
+        {
+          "id": "d",
+          "text": "Amber"
+        }
+      ],
+      "correct_choice": "a",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Moss to hexagonal shelves.",
+      "source": {
+        "source_id": "test-guide",
+        "locator": "Test page 1",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D3-002",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D3",
+      "rds_refs": [],
+      "question": "Fictional test question D3-002: In the invented rules of the Imaginary Archives Handbook, which color is assigned to pocket-sized vaults?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cobalt"
+        },
+        {
+          "id": "b",
+          "text": "Saffron"
+        },
+        {
+          "id": "c",
+          "text": "Pewter"
+        },
+        {
+          "id": "d",
+          "text": "Lilac"
+        }
+      ],
+      "correct_choice": "b",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Saffron to pocket-sized vaults.",
+      "source": {
+        "source_id": "test-manual",
+        "locator": "Test page 2",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D4-001",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D4",
+      "rds_refs": [],
+      "question": "Fictional test question D4-001: In the invented rules of the Imaginary Archives Handbook, which color is assigned to pocket-sized vaults?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cobalt"
+        },
+        {
+          "id": "b",
+          "text": "Saffron"
+        },
+        {
+          "id": "c",
+          "text": "Pewter"
+        },
+        {
+          "id": "d",
+          "text": "Lilac"
+        }
+      ],
+      "correct_choice": "c",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Pewter to pocket-sized vaults.",
+      "source": {
+        "source_id": "test-manual",
+        "locator": "Test page 1",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D4-002",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D4",
+      "rds_refs": [],
+      "question": "Fictional test question D4-002: In the invented rules of the Imaginary Archives Handbook, which color is assigned to cloud-shaped boxes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moss"
+        },
+        {
+          "id": "b",
+          "text": "Coral"
+        },
+        {
+          "id": "c",
+          "text": "Slate"
+        },
+        {
+          "id": "d",
+          "text": "Amber"
+        }
+      ],
+      "correct_choice": "d",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Amber to cloud-shaped boxes.",
+      "source": {
+        "source_id": "test-handbook",
+        "locator": "Test page 2",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D5-001",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D5",
+      "rds_refs": [],
+      "question": "Fictional test question D5-001: In the invented rules of the Imaginary Archives Handbook, which color is assigned to cloud-shaped boxes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moss"
+        },
+        {
+          "id": "b",
+          "text": "Coral"
+        },
+        {
+          "id": "c",
+          "text": "Slate"
+        },
+        {
+          "id": "d",
+          "text": "Amber"
+        }
+      ],
+      "correct_choice": "a",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Moss to cloud-shaped boxes.",
+      "source": {
+        "source_id": "test-handbook",
+        "locator": "Test page 1",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D5-002",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D5",
+      "rds_refs": [],
+      "question": "Fictional test question D5-002: In the invented rules of the Imaginary Archives Handbook, which color is assigned to velvet catalogs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cobalt"
+        },
+        {
+          "id": "b",
+          "text": "Saffron"
+        },
+        {
+          "id": "c",
+          "text": "Pewter"
+        },
+        {
+          "id": "d",
+          "text": "Lilac"
+        }
+      ],
+      "correct_choice": "b",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Saffron to velvet catalogs.",
+      "source": {
+        "source_id": "test-guide",
+        "locator": "Test page 2",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D6-001",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D6",
+      "rds_refs": [],
+      "question": "Fictional test question D6-001: In the invented rules of the Imaginary Archives Handbook, which color is assigned to velvet catalogs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cobalt"
+        },
+        {
+          "id": "b",
+          "text": "Saffron"
+        },
+        {
+          "id": "c",
+          "text": "Pewter"
+        },
+        {
+          "id": "d",
+          "text": "Lilac"
+        }
+      ],
+      "correct_choice": "c",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Pewter to velvet catalogs.",
+      "source": {
+        "source_id": "test-guide",
+        "locator": "Test page 1",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D6-002",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D6",
+      "rds_refs": [],
+      "question": "Fictional test question D6-002: In the invented rules of the Imaginary Archives Handbook, which color is assigned to hexagonal shelves?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moss"
+        },
+        {
+          "id": "b",
+          "text": "Coral"
+        },
+        {
+          "id": "c",
+          "text": "Slate"
+        },
+        {
+          "id": "d",
+          "text": "Amber"
+        }
+      ],
+      "correct_choice": "d",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Amber to hexagonal shelves.",
+      "source": {
+        "source_id": "test-manual",
+        "locator": "Test page 2",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D7-001",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D7",
+      "rds_refs": [],
+      "question": "Fictional test question D7-001: In the invented rules of the Imaginary Archives Handbook, which color is assigned to hexagonal shelves?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moss"
+        },
+        {
+          "id": "b",
+          "text": "Coral"
+        },
+        {
+          "id": "c",
+          "text": "Slate"
+        },
+        {
+          "id": "d",
+          "text": "Amber"
+        }
+      ],
+      "correct_choice": "a",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Moss to hexagonal shelves.",
+      "source": {
+        "source_id": "test-manual",
+        "locator": "Test page 1",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D7-002",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D7",
+      "rds_refs": [],
+      "question": "Fictional test question D7-002: In the invented rules of the Imaginary Archives Handbook, which color is assigned to pocket-sized vaults?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cobalt"
+        },
+        {
+          "id": "b",
+          "text": "Saffron"
+        },
+        {
+          "id": "c",
+          "text": "Pewter"
+        },
+        {
+          "id": "d",
+          "text": "Lilac"
+        }
+      ],
+      "correct_choice": "b",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Saffron to pocket-sized vaults.",
+      "source": {
+        "source_id": "test-handbook",
+        "locator": "Test page 2",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D8-001",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D8",
+      "rds_refs": [],
+      "question": "Fictional test question D8-001: In the invented rules of the Imaginary Archives Handbook, which color is assigned to pocket-sized vaults?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cobalt"
+        },
+        {
+          "id": "b",
+          "text": "Saffron"
+        },
+        {
+          "id": "c",
+          "text": "Pewter"
+        },
+        {
+          "id": "d",
+          "text": "Lilac"
+        }
+      ],
+      "correct_choice": "c",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Pewter to pocket-sized vaults.",
+      "source": {
+        "source_id": "test-handbook",
+        "locator": "Test page 1",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-D8-002",
+      "revision": 1,
+      "status": "approved",
+      "domain": "D8",
+      "rds_refs": [],
+      "question": "Fictional test question D8-002: In the invented rules of the Imaginary Archives Handbook, which color is assigned to cloud-shaped boxes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moss"
+        },
+        {
+          "id": "b",
+          "text": "Coral"
+        },
+        {
+          "id": "c",
+          "text": "Slate"
+        },
+        {
+          "id": "d",
+          "text": "Amber"
+        }
+      ],
+      "correct_choice": "d",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Amber to cloud-shaped boxes.",
+      "source": {
+        "source_id": "test-guide",
+        "locator": "Test page 2",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "TEST-G-001",
+      "revision": 1,
+      "status": "approved",
+      "domain": "G",
+      "rds_refs": [],
+      "question": "Fictional test question G-001: In the invented rules of the Imaginary Archives Handbook, which color is assigned to cloud-shaped boxes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moss"
+        },
+        {
+          "id": "b",
+          "text": "Coral"
+        },
+        {
+          "id": "c",
+          "text": "Slate"
+        },
+        {
+          "id": "d",
+          "text": "Amber"
+        }
+      ],
+      "correct_choice": "a",
+      "explanation": "This is fictional test content, not exam material. The test data assigns Moss to cloud-shaped boxes.",
+      "source": {
+        "source_id": "test-guide",
+        "locator": "Test page 1",
+        "checked": "2026-10-11"
+      }
+    }
+  ]
+}

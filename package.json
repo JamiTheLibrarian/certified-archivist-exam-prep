@@ -1,0 +1,9 @@
+{
+  "name": "certified-archivist-exam-prep",
+  "private": true,
+  "type": "module",
+  "description": "Lets the automated tests read the app's JavaScript modules. The app itself needs no installation.",
+  "scripts": {
+    "test": "node --test \"tests/*.test.js\""
+  }
+}

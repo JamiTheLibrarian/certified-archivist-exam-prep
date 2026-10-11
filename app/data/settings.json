@@ -1,0 +1,15 @@
+{
+  "content_mode": "fixtures",
+  "fixture_set": "small",
+  "release_status": "development",
+  "practice_exam": {
+    "length": 100,
+    "time_limit_minutes": 180,
+    "minimum_per_domain": 10,
+    "allocation": null
+  },
+  "score_goals": {
+    "green": 85,
+    "yellow": 75
+  }
+}

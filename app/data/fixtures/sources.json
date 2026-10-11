@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "source_id": "test-handbook",
+      "display_name": "Placeholder, Imaginary Archives Handbook",
+      "author": "Test Author A",
+      "title": "The Imaginary Archives Handbook",
+      "edition": "Fictional edition",
+      "year": 2026,
+      "reading_list": false,
+      "citation_url": "https://example.org/fictional/imaginary-archives-handbook"
+    },
+    {
+      "source_id": "test-manual",
+      "display_name": "Sample, Pretend Processing Manual",
+      "author": "Test Author B",
+      "title": "A Pretend Processing Manual",
+      "year": 2026,
+      "reading_list": false,
+      "citation_url": "https://example.org/fictional/pretend-processing-manual"
+    },
+    {
+      "source_id": "test-guide",
+      "display_name": "Example, Made-Up Reference Guide",
+      "author": "Test Author C",
+      "title": "The Made-Up Reference Guide",
+      "year": 2026,
+      "reading_list": false,
+      "citation_url": "https://example.org/fictional/made-up-reference-guide"
+    }
+  ]
+}
