@@ -17,6 +17,7 @@ Roles, workflow, and the full checklist are in [PROJECT_PLAN.md](PROJECT_PLAN.md
   - Release: 100 distinct approved questions meeting the blueprint, plus content, scoring, storage, accessibility, and usability checks. A Learning Mode beta is undecided.
   - Deferred: Test Mode, Flash Cards, export, advanced analytics.
 - Oct 11, 2026: Plexy authorized to run a 10-question Domain 7 pilot. Results stay in Drive. (Jami)
+- Oct 11, 2026: PROJECT_SPEC.md (draft 2) approved and committed, including proposals P1–P11. (Jami)
 
 ## Progress
 
