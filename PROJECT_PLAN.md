@@ -48,6 +48,7 @@ Jami, Claude, and Chad agreed on these rules on October 11, 2026; Plexy joined t
 | PROJECT_PLAN.md | Roles, workflow, and reference checklist (progress is tracked in Issue #1) | Phase 0 |
 | ORIGINAL_APP.md | Inventory of the original app: features with evidence, question-bank counts and issues, missing assets, and decisions to make | Phase 1 |
 | ORIGINAL_APP_STORY.md | Jami's firsthand account of the original app: history, features, what worked, and what to do differently | Phase 1 |
+| PROJECT_SPEC.md | What the app does and how it's built, including the question-bank format | Phase 2 |
 
 
 ## Checklist
@@ -69,14 +70,14 @@ Work top to bottom; finish each phase before starting the next.
 - [x] **Jami:** Commit Plexy's research as RESEARCH.md
 - [x] **Jami:** Share the description, assets, and RESEARCH.md with Claude and Chad
 - [x] **Claude and Chad:** Ask follow-up questions to fill gaps
-- [ ] **Jami:** Sort features into "recreate as is" and "improve"
+- [x] **Jami:** Sort features into "recreate as is" and "improve"
 
 ### Phase 2: Write the specification
 
-- [ ] **Plexy (optional):** Compare options for hosting the app and saving progress
-- [ ] **Claude:** Draft PROJECT\_SPEC.md: purpose, features, technology, requirements, and a question-bank format (a separate data file; each question tagged with domain, difficulty, answer, explanation, source, and review status)
-- [ ] **Jami:** Paste the draft into Chad's chat for review and Plexy's chat for fact-checking
-- [ ] **Chad:** Review and suggest changes
+- [x] **Plexy (optional):** Compare options for hosting the app and saving progress
+- [x] **Claude:** Draft PROJECT\_SPEC.md: purpose, features, technology, requirements, and a question-bank format (a separate data file; each question tagged with domain, difficulty, answer, explanation, source, and review status)
+- [x] **Jami:** Paste the draft into Chad's chat for review and Plexy's chat for fact-checking
+- [x] **Chad:** Review and suggest changes
 - [ ] **Plexy:** Fact-check the exam details in the draft and cite sources
 - [ ] **Claude:** Revise based on Chad's review, Plexy's fact-check, and Jami's feedback
 - [ ] **Jami:** Approve and commit PROJECT\_SPEC.md
