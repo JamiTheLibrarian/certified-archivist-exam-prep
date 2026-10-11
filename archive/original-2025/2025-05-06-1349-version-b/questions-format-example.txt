@@ -1,0 +1,9 @@
+[
+  {
+    "question": "What is the main purpose of archival appraisal?",
+    "choices": ["To discard all non-digital items", "To determine long-term value", "To identify rare books", "To digitize collections"],
+    "correct_answer": "To determine long-term value",
+    "resource": "Audra Eagle Yun – Archival Accessioning"
+  },
+  ...
+]
