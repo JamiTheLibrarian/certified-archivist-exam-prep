@@ -68,7 +68,7 @@ Work top to bottom; finish each phase before starting the next.
 - [x] **Plexy:** Research the current Role Delineation Statement (domains, tasks, knowledge statements), Reading List, eligibility, and exam format, noting the version of each document
 - [x] **Jami:** Commit Plexy's research as RESEARCH.md
 - [x] **Jami:** Share the description, assets, and RESEARCH.md with Claude and Chad
-- [ ] **Claude and Chad:** Ask follow-up questions to fill gaps
+- [x] **Claude and Chad:** Ask follow-up questions to fill gaps
 - [ ] **Jami:** Sort features into "recreate as is" and "improve"
 
 ### Phase 2: Write the specification
