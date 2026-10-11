@@ -45,6 +45,8 @@ Jami, Claude, and Chad agreed on these rules on October 11, 2026; Plexy joined t
 | PROJECT\_SPEC.md | What the app does and how it's built, including the question-bank format | Phase 2 |
 | Question bank data file (e.g. questions.json) | All exam questions, kept separate from the code | First question feature |
 | CHANGELOG.md | What changed in each version | First working version |
+| PROJECT_PLAN.md | Roles, workflow, and reference checklist (progress is tracked in Issue #1) | Phase 0 |
+
 
 ## Checklist
 
