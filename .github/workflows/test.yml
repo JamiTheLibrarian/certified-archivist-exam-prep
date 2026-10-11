@@ -1,0 +1,21 @@
+# Runs the automated tests on every push, showing a green check or red X on each commit.
+# Owner: Claude (step 1). See ARCHITECTURE.md, Section 5.
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run tests
+        run: npm test
