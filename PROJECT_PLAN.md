@@ -78,9 +78,9 @@ Work top to bottom; finish each phase before starting the next.
 - [x] **Claude:** Draft PROJECT\_SPEC.md: purpose, features, technology, requirements, and a question-bank format (a separate data file; each question tagged with domain, difficulty, answer, explanation, source, and review status)
 - [x] **Jami:** Paste the draft into Chad's chat for review and Plexy's chat for fact-checking
 - [x] **Chad:** Review and suggest changes
-- [ ] **Plexy:** Fact-check the exam details in the draft and cite sources
-- [ ] **Claude:** Revise based on Chad's review, Plexy's fact-check, and Jami's feedback
-- [ ] **Jami:** Approve and commit PROJECT\_SPEC.md
+- [x] **Plexy:** Fact-check the exam details in the draft and cite sources
+- [x] **Claude:** Revise based on Chad's review, Plexy's fact-check, and Jami's feedback
+- [x] **Jami:** Approve and commit PROJECT\_SPEC.md
 
 ### Phase 3: Plan the build
 
