@@ -18,6 +18,7 @@ Roles, workflow, and the full checklist are in [PROJECT_PLAN.md](PROJECT_PLAN.md
   - Deferred: Test Mode, Flash Cards, export, advanced analytics.
 - Oct 11, 2026: Plexy authorized to run a 10-question Domain 7 pilot. Results stay in Drive. (Jami)
 - Oct 11, 2026: PROJECT_SPEC.md (draft 2) approved and committed, including proposals P1–P11. (Jami)
+- Oct 11, 2026: Build assignments approved. Claude builds steps 1, 2, 4, and 8; Chad builds steps 3, 5, 6, and 7 and leads the step 9 audit; each reviews the other's work. (Jami)
 
 ## Progress
 
